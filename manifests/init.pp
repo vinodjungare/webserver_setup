@@ -44,10 +44,10 @@
 #
 class webserver_setup ( 
 $mysql_root_pwd, 
-$mysql_user = 'shyam', 
+$mysql_user = 'vinod', 
 $database_list = ['mysql_db1', 'mysql_db2'],   
 $apache_docroot = "/var/www/vhosts/",
-$vhosts_list = ['1.skillbuilder.net','2.skillbuilder.net']){
+$vhosts_list = ['1.skillbuilder.com','2.skillbuilder.com']){
 
   ### MySQL database setup code starts here  
 # Setting defaults as hash. Useful in long term.
